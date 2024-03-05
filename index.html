@@ -42,10 +42,10 @@
             <h1 class="title is-1 publication-title">Your Room is Not Private:<br> Gradient Inversion Attack on Reinforcement Learning</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <a target="_blank" href="https://safeai-lab.github.io/">Miao Li*</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <a target="_blank" href="https://wenhao.pub/">Wenhao Ding</a><sup>1,</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://safeai-lab.github.io/">Miao Li</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://wenhao.pub/">Wenhao Ding</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="https://safeai-lab.github.io/">Ding Zhao</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-                <br/><sup>1</sup>CMU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br/><sup>1</sup>Carnegie Mellon University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <!-- <br>Published at <a target="_blank" href="https://www.corl2023.org/">CoRL 2023</a>. -->
               </span>
             </div>
@@ -106,11 +106,11 @@
           <p style="text-align: left; font-size: 19px;">Our method employs gradient inversion to steal the data used by a robot deployed in the private environment for RL algorithms online training. The adversary can reconstruct the state, action, and supervisory signal from the gradient.</p>
           <div class="columns is-centered">
             <div class="column is-centered">
-              <img src="./resources/AI2THOR_gradient_inversion/paper_img/motivation.png" width='80%' class="center">
+              <img src="./resources/AI2THOR_gradient_inversion/paper_img/motivation.png" width='90%' class="center">
           </div>
           <div class="columns is-centered">
             <div class="column is-centered">
-              <source src="./resources/AI2THOR_robot/firstview.mp4" type="video/mp4" width='30%' class="right">
+              <source src="./resources/AI2THOR_robot/firstview.mp4" type="video/mp4" class="right">
           </div>
           </div>
         </div> 
@@ -152,7 +152,7 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-three-quarters">
-          <h3 class="title is-3" style="text-align: center; padding-bottom: 5px; color: rgb(172, 38, 45)"><bold>Querying similar and dissimilar scenarios with RealGen</bold></h3>
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 5px; color: rgb(196 18 48)"><bold>RGI in AI2THOR: Action, reward, and multi-modal state are reconstructed from the gradient of REINFORCE.</bold></h3>
         </div>
       </div>
     </div>
@@ -164,7 +164,6 @@
       <div class="columns is-centered">
         <div class="column is-three-quarters">
           <!-- <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>New Reset Distributions</bold></h4> -->
-          <p style="text-align: center; font-size: 18px">RGI & AI2THOR: Action, reward, and multi-modal state are reconstructed from the gradient of REINFORCE.</p>
           <div class="columns is-centered">
             <div class="column is-centered">
               <div class="video-container">
@@ -241,7 +240,30 @@
               </div>
             </div>
           </div>
-          <p style="text-align: center; font-size: 18px">QGI & SUN-RGB-D: Action, reward, and multi-modal state are reconstructed from the gradient of DQN.</p>
+          
+
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 5px; color: rgb(196 18 48)"><bold>QGI in SUN-RGB-D: Action, reward, and multi-modal state are reconstructed from the gradient of DQN.</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <!-- <h4 class="title is-4" style="text-align: center; padding-bottom: 10px;"><bold>New Reset Distributions</bold></h4> -->
           <div class="columns is-centered">
             <div class="column is-centered">
               <div class="video-container">
@@ -281,7 +303,7 @@
             </div>
           </div>
 
-          <p style="text-align: center; font-size: 18px">QGI & SUN-RGB-D: RGB and depth images of real-world private room are reconstructed.</p>
+          <p style="text-align: center; font-size: 18px">RGB and depth images of real-world private room are reconstructed.</p>
           <div class="columns is-centered">
             <div class="column is-centered">
                 <img src="./resources/SUN_RGBD_gradient_inversion/results_img/QGI1.png">
@@ -293,7 +315,29 @@
           </div>
         </div>
 
-          <p style="text-align: center; font-size: 18px">QGI with Carla: video inputs of an SAC agent are reconstructed.</p>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h3 class="title is-3" style="text-align: center; padding-bottom: 5px; color: rgb(196 18 48)"><bold>QGI in Carla: video inputs of an SAC agent are reconstructed.</bold></h3>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">            
+
+          <p style="text-align: center; font-size: 18px"></p>
           <div class="columns is-centered">
             <div class="column is-centered">
               <div class="video-container">

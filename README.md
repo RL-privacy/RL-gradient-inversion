@@ -1,3 +1,3 @@
 # RealGen Website
 
-Website for [RealGen](https://realgen.github.io/).
+Website for [RLGI](https://RL-privacy.github.io/RL-gradient-inversion).
